@@ -1,0 +1,93 @@
+.header {
+    width: 100%;
+    background-color: #fff !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.header-toolbar-left {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.header-toolbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+.header-toolbar-right button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1px;
+    border: 2px solid #000;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.header-toolbar-right button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+}
+
+.header-toolbar-right button:hover {
+    background-color: #48abe0;
+}
+
+.header-button {
+    color: #222 !important;
+}
+
+
+.header-input {
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* Dropdown menu appears below the button */
+    left: 0;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100% !important;
+    height: 30vh;
+    overflow: scroll;
+    /* Ensures the dropdown is above other elements */
+}
+
+.dropdown-menu button {
+
+    background-color: transparent;
+    cursor: pointer;
+    width: 100% !important;
+
+}
+
+.header ::-webkit-scrollbar {
+    width: 5px !important;
+}

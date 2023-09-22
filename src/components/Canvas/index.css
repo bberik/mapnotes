@@ -1,0 +1,28 @@
+.react-flow__node.annotation {
+    border-radius: 0;
+    text-align: left;
+    background: white;
+    border: none;
+    line-height: 1.4;
+    width: 225px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+}
+
+.react-flow__node.annotation .react-flow__handle {
+    display: none;
+}
+
+.react-flow__node {
+    border: none;
+}
+
+.new-node {
+    position: absolute;
+    z-index: 999;
+    color: #222;
+}
+
+.new-node span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
